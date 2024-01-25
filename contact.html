@@ -29,9 +29,10 @@
   <script>
     Webflow.push(function() {
       $(document).on('submit', 'form', function() {
+        alert("You details have been submitted, thank you.");
         setTimeout(function() { location.reload(true); }, 7000);
       });
-      
+
     });
 
     </script>
