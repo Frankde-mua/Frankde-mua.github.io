@@ -30,7 +30,7 @@
     Webflow.push(function() {
       $(document).on('submit', 'form', function() {
         alert("You details have been submitted, thank you.");
-        setTimeout(function() { location.reload(true); }, 7000);
+        //setTimeout(function() { location.reload(true); }, 7000);
       });
 
     });
@@ -101,10 +101,10 @@
         <div class="col-md-6">
           <form method="post" id="myFormDetials" action="https://formspree.io/f/mgegozpy">
             <div>
-              <input type="text" name= "name" placeholder="Name Test" />
+              <input type="text" name= "name" placeholder="Name" />
             </div>
             <div>
-              <input type="email" name="email" placeholder="Email" />
+              <input type="email" name="email" placeholder="Email Test" />
             </div>
             <div>
               <input type="text" name="mobile" placeholder="Phone Number" />
