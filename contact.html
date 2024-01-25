@@ -26,6 +26,18 @@
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
+  <script>
+
+    var Webflow = Webflow || [];
+    Webflow.push(function () {
+    
+        $("#myFormDetials").submit(function (event) {
+            setTimeout(function () { location.reload(true); }, 1000);
+        });
+    
+    });
+    
+    </script>
 </head>
 
 <body class="sub_page">
@@ -89,7 +101,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <form method="post" action="https://formspree.io/f/mgegozpy">
+          <form method="post" id="myFormDetials" action="https://formspree.io/f/mgegozpy">
             <div>
               <input type="text" name= "name" placeholder="Name" />
             </div>
