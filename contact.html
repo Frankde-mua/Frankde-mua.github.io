@@ -27,16 +27,13 @@
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
   <script>
-
-    var Webflow = Webflow || [];
-    Webflow.push(function () {
-    
-        $("#myFormDetials").submit(function (event) {
-            setTimeout(function () { location.reload(true); }, 1000);
-        });
-    
+    Webflow.push(function() {
+      $(document).on('submit', 'form', function() {
+        setTimeout(function() { location.reload(true); }, 7000);
+      });
+      
     });
-    
+
     </script>
 </head>
 
