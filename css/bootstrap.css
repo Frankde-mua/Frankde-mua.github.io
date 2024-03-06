@@ -561,9 +561,22 @@ pre code {
 
 @media (min-width: 768px) {
   .container {
-    max-width: 720px;
+    max-width: 750px;
   }
 }
+
+@media (min-width: 820px) {
+  .container {
+    max-width: 800px;
+  }
+}
+
+@media (min-width: 912px) {
+  .container {
+    max-width: 908px;
+  }
+}
+
 
 @media (min-width: 992px) {
   .container {
