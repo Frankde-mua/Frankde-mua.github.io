@@ -73,6 +73,8 @@ body {
 
 .header_section .container {
   padding: 0;
+  margin-left: -8px;
+  right: 100%;
 }
 
 .header_section .nav_container {
@@ -313,16 +315,6 @@ a:focus {
   padding: 35px 0;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-}
-
-.githubLink{
-  margin-left: 180px;
-}
-
-@media (min-width: 649px) and (max-width: 750px){
-  .githubLink{
-    margin-left: -100px;
-  }
 }
 
 .service_section .service_container .box {

@@ -565,6 +565,12 @@ pre code {
   }
 }
 
+@media (max-width: 779px) {
+  .container {
+    max-width: 779px;
+  }
+}
+
 @media (min-width: 820px) {
   .container {
     max-width: 800px;
@@ -4066,9 +4072,10 @@ input[type="button"].btn-block {
 .nav {
   display: -ms-flexbox;
   display: flex;
+  position: fixed;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  padding-left: 0;
+  padding-left: -15px;
   margin-bottom: 0;
   list-style: none;
 }
@@ -4158,7 +4165,7 @@ input[type="button"].btn-block {
 }
 
 .navbar {
-  position: relative;
+  position: fixed;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
